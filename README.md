@@ -1,41 +1,38 @@
 # Saucedemo.com E2E UI Test
 
-This project contains an E2E UI test for saucedemo.com using Selenium and Python.
+Этот проект содержит E2E UI тест для saucedemo.com использующий Selenium and Python.
 
-## Prerequisites
+## Предварительные требования
 
 - Python 3.8+
 - Chrome browser
-- ChromeDriver (make sure it's in your PATH)
+- ChromeDriver (убедитесь, что он есть в вашем PATH)
 
-## Installation
+## Установка
 
-1. Clone this repository:
+1. Склонировать этот репозиториц:
    ```
    git clone https://github.com/ILLnar-Nizami/saucedemo-e2e-test.git
    cd saucedemo-e2e-test
    ```
 
-2. Create a virtual environment and activate it:
+2. Создать virtual environment и активировать его:
    ```
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
-3. Install the required packages:
+3. Установить необходимые пакеты:
    ```
    pip install -r requirements.txt
    ```
 
-## Running the test
-
-To run the E2E UI test for saucedemo.com:
-
+## Запустить тест
 ```
 pytest tests/test_saucedemo.py
 ```
 
-## Notes
+## Важно
 
-- Make sure you have the latest version of ChromeDriver installed and it's in your system PATH.
-- The test uses the standard test account for saucedemo.com. If the credentials change, update them in the test file.
+- Убедитесть, что установлена последняя версия ChromeDriver и находится в system PATH.
+- Этот тест использует стандартный тестовый аккаунт saucedemo.com. Если учетные данные другие, обновите их в тестовом файле test_saucedemo.py.
